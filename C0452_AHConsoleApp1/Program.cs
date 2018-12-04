@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using C0452_AHConsoleApp1.Unit1;
 
 namespace C0452_AHConsoleApp1
 {
@@ -10,6 +7,8 @@ namespace C0452_AHConsoleApp1
     {
         static void Main(string[] args)
         {
+            T11_Town.Check();
+            Console.ReadKey();
         }
     }
 }
